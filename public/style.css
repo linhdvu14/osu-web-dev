@@ -1,0 +1,16 @@
+table {
+	border: 1px solid black;
+	table-layout: fixed;
+	border-collapse: collapse;
+}
+
+th, td {
+	border: 1px solid black; 
+	width: 60px;
+	text-align: center;
+}
+
+#nameCol, #dateCol, #actionCol {
+	width: 200px;
+}
+

@@ -1,0 +1,38 @@
+<h2>Add a new exercise:</h2>
+<form action="/" method="post">
+ <p>
+  <label for="exName">Exercise name (required field):</label>
+  <input type="text" name="name" id="exName">
+ <p>
+  <label for="exReps">Number of times performed:</label>
+  <input type="text" name="reps" id="exReps">
+ <p>
+  <label for="exWeight" type="text">Total weights used:</label>
+  <input type="text" name="weight" id="exWeight">
+ <p>
+  <label for="exDate" type="text">Date performed (yyyy-mm-dd):</label>
+  <input type="text" name="date" id="exDate">
+ <p>
+  <label for="exLbs" type="text">Measurement (1 for lbs, 0 for kgs):</label>
+  <input type="text" name="lbs" id="exLbs"> 
+ <p> 
+  <input type="submit" name="Add Exercise" value="Add Exercise" id="addExercise">
+</form>
+
+<br/>
+<h2>Exercises you have completed:</h2>
+<table>
+ <thead>
+  <tr>
+   <th id="nameCol">Name</th>
+   <th id="repsCol">Reps</th>
+   <th id="weightCol">Weight</th>
+   <th id="dateCol">Date</th>
+   <th id="lbsCol">Lbs</th>
+   <th id="actionCol" colspan="2">Action</th>
+  </tr>
+ </thead>
+ <tbody id="mainBody">
+ </tbody>
+</table>
+

@@ -1,0 +1,22 @@
+<h2>Edit this exercise:</h2>
+<form action="/" method="post">
+ <p>
+  <label for="exName">Exercise name (required field):</label>
+  <input type="text" name="name" id="exName" value="{{this.name}}">
+ <p>
+  <label for="exReps">Number of times the exercise was performed:</label>
+  <input type="text" name="reps" id="exReps" value="{{this.reps}}">
+ <p>
+  <label for="exWeight" type="text">Weights used:</label>
+  <input type="text" name="weight" id="exWeight" value="{{this.weight}}">
+ <p>
+  <label for="exDate" type="text">Date the exercise was performed (yyyy-mm-dd):</label>
+  <input type="text" name="date" id="exDate" value="{{this.date}}">
+ <p>
+  <label for="exLbs" type="text">Measurement (1 for lbs, 0 for kgs):</label>
+  <input type="text" name="lbs" id="exLbs" value="{{this.lbs}}"> 
+ <p> 
+  <input type="hidden" name="id" value={{this.id}}>
+  <input type="submit" name="Submit Edit" value="Submit Edit">
+</form>
+
